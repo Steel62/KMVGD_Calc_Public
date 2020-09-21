@@ -1,0 +1,23 @@
+.container {
+  font-family: 'Roboto Condensed';
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 70px 1fr 4fr;
+  grid-template-areas: "header header"
+                        "nav kit"
+                        "nav kitItems";
+  height: 100vh;
+  min-height: 810px;
+  padding: 0 1vw;
+  min-width: 1130px;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  .noKit{
+    color: darkred;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+  }
+}

@@ -1,0 +1,23 @@
+.testCondition{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+
+  label{
+    width: 40%;
+  }
+
+  input[type="text"]{
+    width: 40%;
+    border: 1px #4CAF50 solid;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px 10px;
+
+    &:focus{
+      border: 2px #4CAF50 solid;
+    }
+  }
+}

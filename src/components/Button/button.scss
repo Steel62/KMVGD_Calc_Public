@@ -1,0 +1,32 @@
+.activeButton {
+  background: #006064;
+  border: 1px #006064 solid;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: white;
+  transition: all 0.1s;
+  outline: none;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: #00000044 0 0 6px 3px;
+  }
+
+  &:active {
+    color: #006064;
+    background: #fff;
+  }
+}
+
+.inactiveButton {
+  background: #9a9a9a;
+  border: 1px #9a9a9a solid;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: white;
+  outline: none;
+
+  &:active {
+    border: 1px #9a9a9a solid;
+  }
+}

@@ -1,0 +1,28 @@
+.additionalMeasuring {
+  width: 30%;
+  text-align: center;
+
+  .additionalMeasuring__Item {
+
+    textarea {
+      resize: none;
+    }
+
+    input[type='text'], textarea {
+      border: 1px #4CAF50 solid;
+      border-radius: 3px;
+      outline: none;
+      padding: 5px 10px;
+
+      &:focus{
+        border: 2px #4CAF50 solid;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      margin: 20px 0 0 0;
+      padding-bottom: 5px;
+    }
+  }
+}

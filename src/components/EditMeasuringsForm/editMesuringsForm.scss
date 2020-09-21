@@ -1,0 +1,31 @@
+ul.editMeasuringsForm__tab {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+    width: 45%;
+    border: 1px solid #006064;
+    color: #006064;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 5px;
+    font-weight: bold;
+  }
+
+  li.active{
+    background: #006064;
+    color: white;
+  }
+
+}
+.editMeasuringsForm__measuringsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.editMeasuringsForm__buttonContainer{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}

@@ -1,0 +1,17 @@
+.form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background: #fff;
+  width: 70%;
+  border-radius: 3px;
+  border: 2px #0a5e30 solid;
+  .form__title{
+    width: 100%;
+    background: #0a5e30;
+    color: #fff;
+    padding: 7px 15px;
+    box-sizing: border-box;
+  }
+}

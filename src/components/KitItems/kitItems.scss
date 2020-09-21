@@ -1,0 +1,22 @@
+.kitItems{
+  grid-area: kitItems;
+  padding: 0 0 10px 10px;
+  fieldset{
+    border: 1px #80E800 solid;
+    box-sizing: border-box;
+    height: 100%;
+    legend{
+      color: #0b5e31;
+      font-weight: bold;
+    }
+    .kitItems__Container{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+      height: 97%;
+
+    }
+  }
+}

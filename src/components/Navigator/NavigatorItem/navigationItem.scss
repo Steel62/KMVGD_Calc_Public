@@ -1,0 +1,35 @@
+.navigatorItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px #80e800 solid;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  p {
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #006064;
+    cursor: default;
+  }
+
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    line-height: 0;
+
+    img {
+      height: 18px;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

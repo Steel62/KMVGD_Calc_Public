@@ -1,0 +1,37 @@
+nav {
+  grid-area: nav;
+  padding: 10px 0;
+
+  fieldset {
+    border: 1px #80E800 solid;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+    legend {
+      color: #0b5e31;
+      font-weight: bold;
+    }
+
+    .nav__itemContainer {
+      overflow-y: auto;
+      height: 88%;
+      padding-right: 5px;
+    }
+  }
+
+  .total{
+    color: #0A5E30;
+    font-size: 12px;
+  }
+
+  .nav_buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,21 @@
+.editParameter{
+  width: 23%;
+  input[type="text"]{
+    display: block;
+    margin: 10px auto 10px auto;
+    border: 1px #4CAF50 solid;
+    border-radius: 3px;
+    padding: 5px 10px;
+    outline: none;
+    width: 80%;
+    &:focus{
+      border: 2px #4CAF50 solid;
+    }
+  }
+  .editParameter__Title{
+    text-align: center;
+    color: #006064;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}

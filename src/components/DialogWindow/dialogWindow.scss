@@ -1,0 +1,44 @@
+.dialogWindow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  transform: translateX(-50%) translateY(-50%);
+  background: white;
+  border-radius: 3px;
+  border: 2px #0a5e30 solid;
+
+  .dialogWindow__title {
+    margin: 0;
+    width: 100%;
+    background: #0a5e30;
+    color: #fff;
+    padding: 7px 15px;
+    box-sizing: border-box;
+  }
+
+  .dialogWindow__content {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+
+    input[type="text"]{
+      border: 1px #4CAF50 solid;
+      border-radius: 3px;
+      padding: 5px 10px;
+      outline: none;
+      margin-left: 20px;
+
+      &:focus{
+        border: 2px #4CAF50 solid;
+      }
+    }
+  }
+
+  .dialogWindow__buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20%;
+  }
+
+}

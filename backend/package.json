@@ -1,0 +1,17 @@
+{
+  "name": "KMVGD_Calc",
+  "version": "1.0.0",
+  "description": "utility for calculating eye pressure measures",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.1.1",
+    "express": "^4.17.1",
+    "opn": "^6.0.0",
+    "tcp-ping": "^0.1.1"
+  },
+  "author": "Vitaliy Kuvshinov",
+  "license": "ISC"
+}

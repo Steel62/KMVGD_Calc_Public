@@ -1,0 +1,17 @@
+.kit{
+  grid-area: kit;
+  padding: 10px 0px 5px 10px;
+  fieldset{
+    border: 1px #80E800 solid;
+    height: 100%;
+    box-sizing: border-box;
+    legend{
+      color: #0b5e31;
+      font-weight: bold;
+    }
+    .kit__container{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

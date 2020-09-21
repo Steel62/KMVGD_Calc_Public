@@ -1,0 +1,20 @@
+.measuredCard{
+  legend{
+    font-size: 14px;
+  }
+  width: 23%;
+  p{
+    text-align: center;
+    margin: 0;
+  }
+  .measuredCard__parameterName{
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .measuredCard__parameterValue{
+    span{
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}

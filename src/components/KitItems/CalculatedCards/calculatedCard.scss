@@ -1,0 +1,40 @@
+.calculatedCard {
+  position: relative;
+
+  legend {
+    font-size: 14px;
+  }
+
+  .calculatedCard__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  button {
+    color: white;
+    background: #006064;
+    outline: none;
+    border: 1px #006064 solid;
+    border-radius: 3px;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 5px 10px;
+    transition: all 0.1s;
+
+    &:hover {
+      transform: translateX(-50%) translateY(-50%) scale(1.05);
+      box-shadow: #00000044 0 0 6px 3px;
+    }
+
+    &:active{
+      color: #006064;
+      background: #fff;
+    }
+  }
+}
+
+
